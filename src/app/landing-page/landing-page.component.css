@@ -17,7 +17,7 @@
 
 #user {
 background-color: black;
-  border: 1px solid #F1B24A;
+  border: 1px solid brown;
   color: white;
   font-family: fantasy;
   padding: 15px;
@@ -27,7 +27,7 @@ background-color: black;
 
 #repo {
   background-color: black;
-    border: 1px solid #F1B24A;
+    border: 1px solid brown;
     color: white;
     font-family: fantasy;
     padding: 15px;
