@@ -1,0 +1,17 @@
+.description {
+  text-align: center;
+  color: brown;
+  margin-top: 150px;
+}
+
+.description h3 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.description p {
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+}
+
