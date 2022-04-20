@@ -1,0 +1,16 @@
+.button {
+  background-color: black;
+  border: 1px solid brown;
+  color: white;
+  font-family: fantasy;
+  padding: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#content {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
