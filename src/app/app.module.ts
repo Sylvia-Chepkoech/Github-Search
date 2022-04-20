@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
+import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    RepoComponent
   ],
   imports: [
     BrowserModule,
