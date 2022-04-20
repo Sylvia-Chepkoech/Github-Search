@@ -1,27 +1,39 @@
-# GitSearch
+# {Git-Search}
+#### {Project Description}
+A Github 'google' that allows users to search for github users and their repositories using their username and repository names respectivly.
+## *Dated 20/04/2022*
+#### By *Sylvia Chepkoech*
+## Landing Page Display
+![Screenshot from 2022-04-20 22-55-55](https://user-images.githubusercontent.com/100121056/164312341-08e049c8-a6c4-46ca-9bdc-94930040e69f.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## Setup/Installation Requirements
+* Open your terminal (ctrl+alt+T).
 
-## Development server
+* Initialize git on your terminal.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* git clone https://github.com/Sylvia-Chepkoech/Git-search.git
 
-## Code scaffolding
+* Run npm start on your terminal
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Then view the web page.
 
-## Build
+* Search for any account on github using the search forms provided.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Making modifications
+To make advancements/modifications, follow these steps:
 
-## Running unit tests
+* Fork the repository
+* Create a new branch (git checkout -b x-feature)
+* Make the appropriate changes in the files
+* Add changes made
+* Commit your changes (git commit -am 'x-feature')
+* Push to the branch (git push origin x-feature)
+* Create a Pull Request
+## Technologies Used
+This project was generated with Angular CLI version 12.1.3. The technologies used are HTML, CSS, Typescript and Bootstrap.
+## Support and contact details
+Should you be unable to access the website, have any recommendations and/or questions, feel free to email me:sylvia.chepkoech@student.moringaschool.com
+### License
+The web is under MIT license and is open for anyone interested in using it. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Copyright (c) {year} **Sylvia Chepkoech**
