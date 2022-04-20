@@ -11,7 +11,6 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { RepoComponent } from './repo/repo.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ProfileComponent } from './profile/profile.component';
-import { FormValidateDirective } from './form-validate.directive';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
