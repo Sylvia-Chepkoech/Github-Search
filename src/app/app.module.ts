@@ -8,7 +8,6 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { HomeComponent } from './home/home.component';
 import { RepoComponent } from './repo/repo.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -21,7 +20,6 @@ import { FormsModule } from '@angular/forms';
     routingComponents,
     NavbarComponent,
     NotFoundComponent,
-    HomeComponent,
     RepoComponent,
     LandingPageComponent,
     ProfileComponent
