@@ -11,6 +11,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
 import { RepoComponent } from './repo/repo.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     NotFoundComponent,
     HomeComponent,
     RepoComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
