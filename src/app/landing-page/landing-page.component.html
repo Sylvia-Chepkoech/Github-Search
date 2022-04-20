@@ -1,1 +1,25 @@
-<p>landing-page works!</p>
+<section class="landing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="brand">
+          <h3>Hypertext <span class="br"> {{brands|spaces}}</span></h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="description">
+          <h3>Find Github Profiles Here!</h3>
+          <p>We have improved your github Search Experience!! When others are searching on ***HUB, We are on Github</p>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="searchs">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+          <div id="searches" class="btn-group" role="group" aria-label="Basic example">
+            <button class="btn btn-success" id="user" routerLink="/profile">Search Github by Username </button>
+            <button id="repo" class="btn btn-success" routerLink="/repos">Search Github by Repositories</button>
+          </div>
+        </div>
+      </div>
