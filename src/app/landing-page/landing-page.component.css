@@ -15,3 +15,22 @@
   color: white;
 }
 
+#user {
+background-color: black;
+  border: 1px solid #F1B24A;
+  color: white;
+  font-family: fantasy;
+  padding: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#repo {
+  background-color: black;
+    border: 1px solid #F1B24A;
+    color: white;
+    font-family: fantasy;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 5px;
+  }
