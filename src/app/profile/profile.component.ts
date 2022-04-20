@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GitprofileService } from '../gitprofile-service/gitprofile.service';
 
 @Component({
   selector: 'app-profile',
@@ -7,9 +8,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
-  constructor() { }
+  public myUser:any=[];
+  public repos:any=[];
+  public username: string = "";
 
-  ngOnInit(): void {
+    //inject service
+  constructor(private gitprofileService:GitprofileService) { 
+    
+    
+  } 
+  findUser(){
+    this.gitprofileService.updateUser(this.username);
+    this.gitprofileService.getUserInfo().subscribe((response: any) =>{
+      this.myUser = response;
+      console.log(response);
+    });
+    this.gitprofileService.getUserRepo().subscribe((myRepo: any) =>{
+      this.repos = myRepo;
+      console.log(myRepo);
+    });
+  }
+  ngOnInit(): void{
+    
   }
 
 }

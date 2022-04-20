@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { RepoComponent } from './repo/repo.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ProfileComponent } from './profile/profile.component';
+import { FormValidateDirective } from './form-validate.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProfileComponent } from './profile/profile.component';
     HomeComponent,
     RepoComponent,
     LandingPageComponent,
-    ProfileComponent
+    ProfileComponent,
+    FormValidateDirective
   ],
   imports: [
     BrowserModule,
